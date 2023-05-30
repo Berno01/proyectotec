@@ -1,5 +1,5 @@
 <?php
-if ($_FILES["imagen"]["error"] == UPLOAD_ERR_OK) {
+/*if ($_FILES["imagen"]["error"] == UPLOAD_ERR_OK) {
     $tempName = $_FILES["imagen"]["tmp_name"];
     $fileName = $_FILES["imagen"]["name"];
     $destination = "img/" . $fileName;
@@ -11,5 +11,5 @@ if ($_FILES["imagen"]["error"] == UPLOAD_ERR_OK) {
     }
 } else {
     echo "Error al cargar la imagen.";
-}
+}*/
 ?>
